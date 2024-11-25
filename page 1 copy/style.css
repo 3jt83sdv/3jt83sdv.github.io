@@ -1,0 +1,41 @@
+#ruta1{
+
+height: 300px;
+width: 1920px;
+
+background-color: aliceblue;
+}
+
+#ruta2{
+    
+    height: 500px;
+    width: 500px;
+
+    background-color: darkorchid;
+}
+
+#ruta3{
+    
+    height: 500px;
+    width: 800px;
+
+    background-color: green;
+}
+
+
+#ruta4{
+    height: 150px;
+    width: 1920px;
+    background-color: brown;
+}
+
+#ruta5{
+
+    height: 200px;
+    width: 1920px;
+    background-color: white;
+}
+
+#container{
+    display:flex
+}
