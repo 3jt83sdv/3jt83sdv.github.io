@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: white;
+}
+
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+
+header {
+    grid-area: h;
+    text-align: center;
+    padding: 40px 20px;
+}
+.mail-text {
+    background-image: url('https://img.icons8.com/ios-glyphs/30/000000/new-post.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.phone-text {
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/phone.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px; 
+}
+.location-text {
+    background-image: url('https://img.icons8.com/?size=100&id=85049&format=png&color=000000');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 30px; 
+    line-height: 20px; 
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#profilbild {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.hero-text {
+      font-size: 24px;
+    color: #555;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+
+nav {
+    grid-area: n;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-bottom: 2px solid black;
+}
+
+
+main {
+    grid-area: m;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 50px;
+    min-height: 350px; 
+}
+
+
+aside {
+    grid-area: a;
+    padding: 20px;
+}
+
+
+footer {
+    grid-area: f;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.grid {
+    margin: 0 auto;
+    width: 60%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-areas: 
+        "h h"
+        "n n"
+        "m a"
+        "m a"
+        "f f";
+}
+
+
+@media (max-width: 900px) {
+
+    .grid {
+        width: 95%;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "h"
+            "n"
+            "m"
+            "a"
+            "f";
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #profilbild {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    .card {
+        min-height: 250px;
+        padding: 15px;
+    }
+}
