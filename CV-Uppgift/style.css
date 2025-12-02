@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     background: white;
 }
-
 
 h1, h2, h3 {
     margin-top: 0;
@@ -17,52 +15,47 @@ header {
     text-align: center;
     padding: 40px 20px;
 }
-.mail-text {
-    background-image: url('https://img.icons8.com/ios-glyphs/30/000000/new-post.png');
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    padding-left: 30px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-}
-.phone-text {
-    background-image: url('https://img.icons8.com/ios-filled/50/000000/phone.png');
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    padding-left: 30px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    margin-top: 10px; 
-}
+
+
+.mail-text,
+.phone-text,
 .location-text {
-    background-image: url('https://img.icons8.com/?size=100&id=85049&format=png&color=000000');
     background-repeat: no-repeat;
-    background-size: 20px 20px;
-    padding-left: 30px; 
-    line-height: 20px; 
+    background-size: 20px;
+    padding-left: 30px;
+    line-height: 20px;
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
+
+.mail-text {
+    background-image: url('https://img.icons8.com/ios-glyphs/30/000000/new-post.png');
+}
+.phone-text {
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/phone.png');
+}
+.location-text {
+    background-image: url('https://img.icons8.com/?size=100&id=85049&format=png&color=000000');
+}
+
 
 #profilbild {
     border-radius: 50%;
     width: 120px;
     height: 120px;
     object-fit: cover;
-    display: block;
     margin: 0 auto 15px;
+    display: block;
 }
 
+
 .hero-text {
-      font-size: 24px;
+    font-size: 24px;
     color: #555;
     margin-top: 15px;
     font-weight: 500;
 }
-
 
 nav {
     grid-area: n;
@@ -95,7 +88,7 @@ main {
     border-radius: 8px;
     padding: 25px;
     margin-bottom: 50px;
-    min-height: 350px; 
+    min-height: 350px;
 }
 
 
@@ -104,13 +97,11 @@ aside {
     padding: 20px;
 }
 
-
 footer {
     grid-area: f;
     text-align: center;
     padding: 15px;
 }
-
 
 .grid {
     margin: 0 auto;
@@ -118,7 +109,7 @@ footer {
     max-width: 1000px;
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-areas: 
+    grid-template-areas:
         "h h"
         "n n"
         "m a"
@@ -126,9 +117,7 @@ footer {
         "f f";
 }
 
-
 @media (max-width: 900px) {
-
     .grid {
         width: 95%;
         grid-template-columns: 1fr;
