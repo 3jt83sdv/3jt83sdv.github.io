@@ -47,9 +47,9 @@ main {
 
 aside {
     grid-area: aside;
-    background: #fff;
+    background: #0a0404;
     padding: 10px;
-    border: 2px dashed #ccc;
+    border: 2px dashed #000000;
     overflow-y: auto;
 }
 
