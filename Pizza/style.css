@@ -23,7 +23,7 @@ body {
 
 header {
     grid-area: header;
-    background: #000000;
+    background: #ff914d;
     display: flex;
     align-items: center;
     justify-content: center;
