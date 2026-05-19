@@ -32,9 +32,9 @@ header {
 
 nav {
     grid-area: nav;
-    background: #fff;
+    background: #857c7c;
     padding: 10px;
-    border: 2px dashed #ccc;
+    border: 2px dashed #857c7c;
     overflow-y: auto;
 }
 
@@ -47,9 +47,9 @@ main {
 
 aside {
     grid-area: aside;
-    background: #fff;
+    background: #857c7c;
     padding: 10px;
-    border: 2px dashed #ccc;
+    border: 2px dashed #857c7c;
     overflow-y: auto;
 }
 
