@@ -27,14 +27,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 nav {
     grid-area: nav;
-    background: #000000;
+    background: #857c7c;
     padding: 10px;
-    border: 2px dashed #000000;
+    border: 2px dashed #857c7c;
     overflow-y: auto;
 }
 
