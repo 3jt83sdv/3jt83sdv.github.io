@@ -23,11 +23,11 @@ body {
 
 header {
     grid-area: header;
-    background: #ff914d;
+    background: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
 }
 
 nav {
