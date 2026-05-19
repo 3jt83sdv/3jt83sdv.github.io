@@ -32,9 +32,9 @@ header {
 
 nav {
     grid-area: nav;
-    background: #857c7c;
+    background: #000000;
     padding: 10px;
-    border: 2px dashed #857c7c;
+    border: 2px dashed #000000;
     overflow-y: auto;
 }
 
